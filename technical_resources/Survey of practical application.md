@@ -1,10 +1,9 @@
 ---
-
 title:"用户画像应用现状"
 permalink: /technical_resources/
 author_profile: false
-
 ---
+
 
 ### 1.[用户画像基本作用](https://blog.csdn.net/zzhhoubin/article/details/79727130)
 * *精准营销*:根据历史用户特征，分析产品的潜在用户和用户的潜在需求，针对特定群体，利用短信、邮件等方式进行营销。
