@@ -1,13 +1,9 @@
 ---
-
-id: 6
 title: "Python文件I/O"
 date: 2018-10-14T23:17:07+00:00
 author: Yan Xu
 layout: single
 permalink: /python-fileio/
-categories:
-  - Python
 ---
 #### (六). Python文件I/O
 

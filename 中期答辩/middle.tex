@@ -3,7 +3,7 @@
 \usepackage[UTF8,noindent]{ctex}
 \usepackage{times}
 \usepackage{fontenc}
-\usetheme{Boadilla}
+\usetheme{Singapore}
 \setbeamertemplate{navigation symbols}{}
 \setbeamertemplate{background}{\includegraphics[height=\paperheight]{bg}}
 \title[中期答辩]{“卷皮网”用户画像及精准推荐实战}
@@ -17,11 +17,11 @@
 
 \frame{\titlepage}
 \begin{frame}
-\textbf{"There is nothing about doing data analysis that is neutral.\newline
-What and how data is collected, how the data is cleaned\newline and
-stored, what models are constructed, and what questions are
+\textbf{"There is nothing about doing data analysis that is neutral.\newline\newline
+What and how data is collected, how the data is cleaned\newline\newline and
+stored, what models are constructed, and what questions are\newline\newline
 asked – all of this is political."}
-\newline Danah Boyd, NYU
+\newline\newline Danah Boyd, NYU
 
 \end{frame}
 
@@ -29,38 +29,84 @@ asked – all of this is political."}
 \tableofcontents
 \end{frame}
 
-\section{项目进展}
+\section{卷皮网研究情况}
 
-\begin{frame}{专业知识与技能}
+\begin{frame}{卷皮网概述}
 \begin{itemize}
-\item 机器学习与数据挖掘基本概念与使用方法\newline
-\item 从商业分析角度探究用户画像在企业中的应用\newline
-\item 使用R/Python等编程语言进行分析与研究\newline
+\item 特点：主打低价商品的拼团类购物网站。\newline
+\item 主营业务：日用品及百货的电子商务。\newline
+\item 企业问题：重复购买客户数量少，客单价较低。
 \end{itemize}
 \end{frame}
 
-\begin{frame}{企业合作}
+\begin{frame}{商品营销分析}
+\begin{itemize}
+\item 数据来源：卷皮网数据分析员工提供。所有数据经过脱敏处理。\newline
+\item 数据量：8种品类商品价格数据共2570组。\newline
+\item 分析方法：统计、逻辑回归。\newline
+\item 分析结论：\newline
   \begin{itemize}
-  \item 与卷皮网员工进行交流
-  \newline
-  \item 爬取并分析卷皮网相关数据
-  \newline
-  \item 发现数据潜在商业价值与市场应用
+    \item 各品类商品平均价格偏低，离散程度较小，商品质量与价格分布集中。\newline
+    \item \textbf{99.8\%}的商品以打折价出售，降价幅度较大，说明卷皮网消费者对商品打折信息较为敏感。\newline
+    \item 不同时期商品浮动价格较大，一般以上商品不定期会有大幅度价格变动。
+  \end{itemize}
+\end{itemize}
+\end{frame}
+
+\begin{frame}{用户评论分析}
+  \begin{itemize}
+    \item 数据来源：手机端APP评论数据+Python爬虫程序\newline
+    \item 数据量：8种品类商品，每种选取10个商品，爬取评论。平均每个商品约500条评论。\newline
+    \item 分析方法：文本分词，建立数据字典，分析情绪倾向性\newline
   \end{itemize}
 \end{frame}
 
-\begin{frame}{方案优化}
-  \textbf{项目执行中的问题}\newline
-   \begin{itemize}
-      \item 卷皮网购物数据质量较低，用户类型单一，不具有普遍意义。\newline
-      \item 一个项目无法全面展现机器学习中丰富的研究方法。\newline
-      \item 不同应用场景下的用户画像有很大区别。\newline
-      \item 报告的形式无法很好的呈现研究结果。
-   \end{itemize}
+
+\begin{frame}{用户评论分析}
+\begin{itemize}
+\item 分析情况：\newline
+  \begin{itemize}
+    \item 评论少，无效评论较多，评论转化率低。\newline
+    \item 用户评论字数偏少，差异性低。\newline
+    \item 商品评论数量与评论倾向并不会显著影响商品销量。\newline
+  \end{itemize}
+\item 结论：
+  \begin{itemize}
+    \item 卷皮网面向的消费者对评论关注程度低，且不会显著影响其购买决策。\newline
+    \item 用户评论用词高度重复，差异性不够显著。\newline
+  \end{itemize}
+\end{itemize}
 \end{frame}
 
-\begin{frame}{方案优化}
-  \textbf{解决方案与改进措施}\newline
+
+\begin{frame}{卷皮网项目结论}
+\textbf{为什么卷皮网客单价低，用户重复购买意愿不强？}\newline
+  \begin{itemize}
+    \item 流量时效性强，其借助互联网渠道的转发难以维持固定客户。\newline
+    \item 商品质量参差不齐，山寨产品影响购物体验。\newline
+    \item 卷皮网消费者在网上发表评论意愿不强，重复度高。参考意义低。\newline
+    \item 营销模式偏低端，商品心里价格较低。
+  \end{itemize}
+
+
+\end{frame}
+
+\begin{frame}{研究心得体会}
+  \begin{itemize}
+    \item 研究目标用户群体的用户画像可以切实分析企业经营中的优势与问题。\newline
+    \item 机器学习的研究方法可以从另一个维度解读数据。\newline
+    \item 卷皮网的项目实践得出了对卷皮网目标用户群的画像，并得到了一定的结论。\newline
+    \item 卷皮网用户群像单一，数据质量不高，不具有很强的研究价值。\newline
+  \end{itemize}
+\end{frame}
+
+\section{教程开发与编程社区建立}
+
+\begin{frame}{工作范围扩大}
+\includegraphics[height=0.7\paperheight]{amplify}
+\end{frame}
+
+\begin{frame}{工作范围扩大}
    \begin{itemize}
       \item 增加研究领域，扩大研究范围，全方位解读用户画像的企业应用场景。\newline
       \item 增加对于不同数据类型、不同方法的对比研究。对比不同编程语言及程序包的优劣。\newline
@@ -69,6 +115,12 @@ asked – all of this is political."}
    \end{itemize}
 \end{frame}
 
+\begin{frame}{为什么要做教程？}
+  \begin{itemize}
+    \item 在卷皮网项目开发过程中发现，相关技术资料不够系统，教程较少，推荐困难。\newline
+    \item 身边许多老师同学对此领域有很浓厚的兴趣。
+  \end{itemize}
+\end{frame}
 
 \begin{frame}{网页}
 \begin{columns}
@@ -82,29 +134,37 @@ asked – all of this is political."}
   \end{columns}
 \end{frame}
 
-\begin{frame}{网页}
-\textbf{教程框架设计}
+\begin{frame}{教程框架设计}
 \begin{itemize}
 \item 技术原理：对概念和基础知识点的介绍、程序包的使用方法介绍、算法原理介绍等。\newline
 \item 案例分析：全面记录团队项目开发过程和在其中使用到的研究方法、编程技巧、优化思路，并进行探讨比较。\newline
 \item 入门练习：提供让入门读者快速上手实践并理解机器学习和用户画像的案例，数据与源代码。\newline
 \end{itemize}
 \end{frame}
+
+\begin{frame}{已完成教程}
+  \begin{itemize}
+    \item Python编程语言基础教程\newline
+    \item 机器学习简介\newline
+    \item 用户画像简介及企业实例\newline
+    \item 银行客户流失案例分析\newline
+    \item R语言基础及机器学习入门\newline
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{即将上线教程}
+  \begin{itemize}
+    \item 卷皮网项目开发历程，数据，代码，总结\newline
+    \item R语言基础及机器学习入门\newline
+    \item 机器学习主流论坛与资源获取站点
+  \end{itemize}
+\end{frame}
 %%%%%%
 
-\section{现阶段问题}
-  \begin{frame}{现阶段问题}
-    \begin{itemize}
-      \item 企业数据获得较为困难，企业严格限制API的调用。\newline
-      \item 已有中文语义分析技术尚不成熟，对中文用户刻画精确度较低。\newline
-      \item 尚未明确针对不同行业设计数据清理方案的思路。
-    \end{itemize}
-  \end{frame}
 
-%%%%%%
 
 \section{财务情况}
-  \begin{frame}{}
+  \begin{frame}{财务情况}
   \includegraphics[height=0.66\paperheight]{finance}
   \end{frame}
 
@@ -124,9 +184,6 @@ asked – all of this is political."}
 
 %%%%%%
 
-\begin{frame}
-\textbf{感谢聆听！}
-\end{frame}
 
 
 \end{document}
