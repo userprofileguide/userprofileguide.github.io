@@ -12,3 +12,10 @@ example/_site
 Gemfile.lock
 node_modules
 npm-debug.log*
+*.Rproj
+.Rproj.user
+r-scr/
+.Rhistory
+_posts/*.html
+.Rhistory
+.RData

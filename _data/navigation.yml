@@ -1,17 +1,47 @@
 # main links
 main:
-  - title: "技术原理"
+  - title: "Posts"
     url: /posts/
-  - title: "案例分析"
-    url: /samples/
-  - title: "练习"
-    url: /practice/
+  - title: "Brief Bio"
+    url: /bio/
+  - title: "C.V."
+    url: /cv/
+  - title: "Publications"
+    url: /cv/publications/
+  - title: "Software"
+    url: /software/
+  - title: "Associates"
+    url: /associates/
 
+  # - title: "About"
+  #   url: https://mmistakes.github.io/minimal-mistakes/about/
+  # - title: "Sample Posts"
+  #   url: /year-archive/
+  # - title: "Sample Collections"
+  #   url: /collection-archive/
+  # - title: "Sitemap"
+  #   url: /sitemap/
 
 posts:
-  title: Categories
-  children:
-    - title: "Python"
-      url: categories/#Python
-    - title: "UserProfile"
-      url: categories/#UserProfile
+  - title: Categories
+    children:
+     - title: "Quantitative Methods"
+       url: /categories/#quantitative-methods
+     - title: "Latest research"
+       url: /categories/#latest-research
+     - title: "Text Analysis"
+       url: /categories/#text-analysis
+     - title: "Administrative"
+       url: /categories/#administrative
+     - title: "Course-related"
+       url: /categories/#course-related
+     - title: "Field Seminar"
+       url: /categories/#field-seminar
+     - title: "Computers"
+       url: /categories/#computers
+     - title: "Macintosh"
+       url: /categories/#macintosh
+     - title: "Statistics"
+       url: /categories/#statistics
+     - title: "Uncategorized"
+       url: /categories/#uncategorized
