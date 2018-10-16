@@ -8,10 +8,10 @@ main:
     url: /practice/
 
 
-technical_resources:
+posts:
   - title: Categories
   children:
     - title: "Python"
-    url: categories/#Python
+      url: categories/#Python
     - title: "UserProfile"
-    url: categories/#UserProfile
+      url: categories/#UserProfile
