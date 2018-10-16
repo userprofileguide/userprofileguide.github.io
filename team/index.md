@@ -6,4 +6,4 @@ author_profile: false
 
 ### Menu
 
-- [中期答辩slides](/中期答辩/middle.pdf/)
+- [中期答辩slides](https://userprofileguide.github.io/中期答辩/middle.pdf/)
