@@ -288,8 +288,6 @@ defaults:
       comments: # true
       share: true
       related: true
-       sidebar:
-        nav: "posts"
       post_pagination: true
 
 # _pages
