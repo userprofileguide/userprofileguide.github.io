@@ -312,6 +312,6 @@ defaults:
 
 ## collections
 collections:
-  technical_resources:
+    posts:
     output: true
     permalink: /:collection/:path/
