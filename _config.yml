@@ -288,6 +288,9 @@ defaults:
       comments: # true
       share: true
       related: true
+       sidebar:
+        nav: "technical_resources"
+      post_pagination: true
 
 # _pages
   - scope:
