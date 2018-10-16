@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.10.12)  15 OCT 2018 23:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.10.12)  16 OCT 2018 11:14
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1526,73 +1526,73 @@ and DVIPDFMx (CTEX)
 
  <./bg.png>]
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <10> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 25.
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 24.
 File: bg.png Graphic file (type png)
 <use bg.png>
-Package pdftex.def Info: bg.png  used on input line 25.
+Package pdftex.def Info: bg.png  used on input line 24.
 (pdftex.def)             Requested size: 378.20863pt x 273.14662pt.
 [2
 
 ] (./middle.toc)
 File: bg.png Graphic file (type png)
 <use bg.png>
-Package pdftex.def Info: bg.png  used on input line 29.
+Package pdftex.def Info: bg.png  used on input line 28.
 (pdftex.def)             Requested size: 378.20863pt x 273.14662pt.
  [3
 
 ]
-LaTeX Font Info:    Try loading font information for U+msa on input line 39.
+LaTeX Font Info:    Try loading font information for U+msa on input line 38.
  (d:/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 39.
+LaTeX Font Info:    Try loading font information for U+msb on input line 38.
 
 (d:/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <10> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 39.
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 38.
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <7> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 39.
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 38.
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <5> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 39.
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 38.
 File: bg.png Graphic file (type png)
 <use bg.png>
-Package pdftex.def Info: bg.png  used on input line 39.
+Package pdftex.def Info: bg.png  used on input line 38.
 (pdftex.def)             Requested size: 378.20863pt x 273.14662pt.
  [4
 
 ]
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <9> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 53.
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 52.
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <6> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 53.
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 52.
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <9> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 53.
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 52.
 File: bg.png Graphic file (type png)
 <use bg.png>
-Package pdftex.def Info: bg.png  used on input line 53.
+Package pdftex.def Info: bg.png  used on input line 52.
 (pdftex.def)             Requested size: 378.20863pt x 273.14662pt.
  [5
 
 ]
 File: bg.png Graphic file (type png)
 <use bg.png>
-Package pdftex.def Info: bg.png  used on input line 61.
+Package pdftex.def Info: bg.png  used on input line 60.
 (pdftex.def)             Requested size: 378.20863pt x 273.14662pt.
  [6
 
 ]
 File: bg.png Graphic file (type png)
 <use bg.png>
-Package pdftex.def Info: bg.png  used on input line 78.
+Package pdftex.def Info: bg.png  used on input line 77.
 (pdftex.def)             Requested size: 378.20863pt x 273.14662pt.
  [7
 
 ]
 File: bg.png Graphic file (type png)
 <use bg.png>
-Package pdftex.def Info: bg.png  used on input line 91.
+Package pdftex.def Info: bg.png  used on input line 90.
 (pdftex.def)             Requested size: 378.20863pt x 273.14662pt.
 
 [8
@@ -1600,7 +1600,7 @@ Package pdftex.def Info: bg.png  used on input line 91.
 ]
 File: bg.png Graphic file (type png)
 <use bg.png>
-Package pdftex.def Info: bg.png  used on input line 100.
+Package pdftex.def Info: bg.png  used on input line 99.
 (pdftex.def)             Requested size: 378.20863pt x 273.14662pt.
  [9
 
@@ -1608,25 +1608,25 @@ Package pdftex.def Info: bg.png  used on input line 100.
 <amplify.png, id=422, 650.86018pt x 494.27518pt>
 File: amplify.png Graphic file (type png)
 <use amplify.png>
-Package pdftex.def Info: amplify.png  used on input line 106.
+Package pdftex.def Info: amplify.png  used on input line 105.
 (pdftex.def)             Requested size: 251.76874pt x 191.2018pt.
 File: bg.png Graphic file (type png)
 <use bg.png>
-Package pdftex.def Info: bg.png  used on input line 106.
+Package pdftex.def Info: bg.png  used on input line 105.
 (pdftex.def)             Requested size: 378.20863pt x 273.14662pt.
  [10
 
  <./amplify.png>]
 File: bg.png Graphic file (type png)
 <use bg.png>
-Package pdftex.def Info: bg.png  used on input line 115.
+Package pdftex.def Info: bg.png  used on input line 114.
 (pdftex.def)             Requested size: 378.20863pt x 273.14662pt.
  [11
 
 ]
 File: bg.png Graphic file (type png)
 <use bg.png>
-Package pdftex.def Info: bg.png  used on input line 122.
+Package pdftex.def Info: bg.png  used on input line 121.
 (pdftex.def)             Requested size: 378.20863pt x 273.14662pt.
  [12
 
@@ -1634,47 +1634,47 @@ Package pdftex.def Info: bg.png  used on input line 122.
 <website1.png, id=499, 938.21947pt x 500.29768pt>
 File: website1.png Graphic file (type png)
 <use website1.png>
-Package pdftex.def Info: website1.png  used on input line 134.
+Package pdftex.def Info: website1.png  used on input line 133.
 (pdftex.def)             Requested size: 204.89142pt x 109.25697pt.
 <website2.png, id=500, 945.96268pt x 536.86285pt>
 File: website2.png Graphic file (type png)
 <use website2.png>
-Package pdftex.def Info: website2.png  used on input line 134.
+Package pdftex.def Info: website2.png  used on input line 133.
 (pdftex.def)             Requested size: 192.50905pt x 109.25697pt.
 
-Overfull \hbox (20.51563pt too wide) in paragraph at lines 134--134
+Overfull \hbox (20.51563pt too wide) in paragraph at lines 133--133
 [][] 
  []
 
 
-Overfull \hbox (8.13326pt too wide) in paragraph at lines 134--134
+Overfull \hbox (8.13326pt too wide) in paragraph at lines 133--133
 []  
  []
 
 File: bg.png Graphic file (type png)
 <use bg.png>
-Package pdftex.def Info: bg.png  used on input line 134.
+Package pdftex.def Info: bg.png  used on input line 133.
 (pdftex.def)             Requested size: 378.20863pt x 273.14662pt.
 [13
 
  <./website1.PNG> <./website2.PNG>]
 File: bg.png Graphic file (type png)
 <use bg.png>
-Package pdftex.def Info: bg.png  used on input line 142.
+Package pdftex.def Info: bg.png  used on input line 141.
 (pdftex.def)             Requested size: 378.20863pt x 273.14662pt.
  [14
 
 ]
 File: bg.png Graphic file (type png)
 <use bg.png>
-Package pdftex.def Info: bg.png  used on input line 152.
+Package pdftex.def Info: bg.png  used on input line 151.
 (pdftex.def)             Requested size: 378.20863pt x 273.14662pt.
  [15
 
 ]
 File: bg.png Graphic file (type png)
 <use bg.png>
-Package pdftex.def Info: bg.png  used on input line 163.
+Package pdftex.def Info: bg.png  used on input line 162.
 (pdftex.def)             Requested size: 378.20863pt x 273.14662pt.
  [16
 
@@ -1682,18 +1682,18 @@ Package pdftex.def Info: bg.png  used on input line 163.
 <finance.png, id=601, 502.44858pt x 302.41554pt>
 File: finance.png Graphic file (type png)
 <use finance.png>
-Package pdftex.def Info: finance.png  used on input line 171.
+Package pdftex.def Info: finance.png  used on input line 170.
 (pdftex.def)             Requested size: 299.52412pt x 180.27776pt.
 File: bg.png Graphic file (type png)
 <use bg.png>
-Package pdftex.def Info: bg.png  used on input line 171.
+Package pdftex.def Info: bg.png  used on input line 170.
 (pdftex.def)             Requested size: 378.20863pt x 273.14662pt.
  [17
 
  <./finance.PNG>]
 File: bg.png Graphic file (type png)
 <use bg.png>
-Package pdftex.def Info: bg.png  used on input line 184.
+Package pdftex.def Info: bg.png  used on input line 183.
 (pdftex.def)             Requested size: 378.20863pt x 273.14662pt.
 
 [18
@@ -1708,11 +1708,11 @@ Package pdftex.def Info: bg.png  used on input line 184.
 \tf@snm=\write8
 \openout8 = `middle.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 190.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 190.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 189.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 189.
  (./middle.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 190.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 190.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 189.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 189.
 Package rerunfilecheck Info: File `middle.out' has not changed.
 (rerunfilecheck)             Checksum: F1B9F776235206DA488EE9585F9024E4;396.
  ) 
@@ -1755,7 +1755,7 @@ imhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows
 st/fonts/type1/public/amsfonts/cm/cmsy9.pfb><d:/texlive/2018/texmf-dist/fonts/t
 ype1/urw/helvetic/uhvb8a.pfb><d:/texlive/2018/texmf-dist/fonts/type1/urw/helvet
 ic/uhvr8a.pfb>
-Output written on middle.pdf (18 pages, 952451 bytes).
+Output written on middle.pdf (18 pages, 952603 bytes).
 PDF statistics:
  893 PDF objects out of 1000 (max. 8388607)
  684 compressed objects within 7 object streams
