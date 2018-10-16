@@ -2,6 +2,10 @@
 main:
   - title: "技术原理"
     url: /posts/
+  - title: "案例分析"
+    url: /samples/
+  - title: "dataset"
+    url: /dataset/
 
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
