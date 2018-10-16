@@ -25,23 +25,7 @@ main:
 posts:
   - title: Categories
     children:
-     - title: "Quantitative Methods"
-       url: /categories/#quantitative-methods
-     - title: "Latest research"
-       url: /categories/#latest-research
-     - title: "Text Analysis"
-       url: /categories/#text-analysis
-     - title: "Administrative"
-       url: /categories/#administrative
-     - title: "Course-related"
-       url: /categories/#course-related
-     - title: "Field Seminar"
-       url: /categories/#field-seminar
-     - title: "Computers"
-       url: /categories/#computers
-     - title: "Macintosh"
-       url: /categories/#macintosh
-     - title: "Statistics"
-       url: /categories/#statistics
-     - title: "Uncategorized"
-       url: /categories/#uncategorized
+     - title: "Python"
+       url: /categories/#Python
+     - title: "User Profile"
+       url: /categories/#UserProfile
