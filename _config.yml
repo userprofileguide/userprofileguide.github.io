@@ -137,7 +137,7 @@ footer:
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      #url: 
+      #url:
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
@@ -308,14 +308,16 @@ defaults:
       post_pagination: false
 
 
-## collections
-collections:
-  cv:
-    output: true
-    permalink: /:collection/:path/
-  pages:
-    output: true
-    permalink: /:path/
-  posts:
-    output: true
-    permalink: /:collection/:path/
+
+defaults:
+  # _posts
+  - scope:
+      path: "/technical_resources/"
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
