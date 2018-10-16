@@ -1,9 +1,11 @@
 ---
+id: 7
 title: "Python变量类型"
 date: 2018-10-14T23:17:07+00:00
 author: Yan Xu
 layout: single
 permalink: /python-variable/
+categories: Python
 ---
 #### (二). Python变量类型
 

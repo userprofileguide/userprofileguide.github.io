@@ -11,5 +11,7 @@ main:
 posts:
   - title: Categories
   children:
-    -title: Python
+    - title: Python
     url: categories/#Python
+    - title: UserProfile
+    url: categories/UserProfile
