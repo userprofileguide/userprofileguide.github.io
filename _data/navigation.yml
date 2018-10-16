@@ -1,17 +1,7 @@
 # main links
 main:
-  - title: "Posts"
+  - title: "技术原理"
     url: /posts/
-  - title: "Brief Bio"
-    url: /bio/
-  - title: "C.V."
-    url: /cv/
-  - title: "Publications"
-    url: /cv/publications/
-  - title: "Software"
-    url: /software/
-  - title: "Associates"
-    url: /associates/
 
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
