@@ -3,8 +3,6 @@ title: 用户流失画像
 type: cv
 ---
 
-# 用户流失画像
-
 在这次实例中我们根据中国电信的脱敏的真实数据，通过数据分析和建立数学模型，来建立用户流失画像，判断怎样的用户流失的规律
 
 ## 概述
@@ -50,8 +48,7 @@ plt.figure(figsize = (10,6))
 df.plot.scatter(x='extra_time',y='loss')
 df.plot.scatter(x='extra_flow',y='loss')
 ```
-![在这里插入图片描述](https://img-blog.csdn.net/2018101600203479?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L05ldmVybW9yZTUxMg==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
-![在这里插入图片描述](https://img-blog.csdn.net/201810160020569?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L05ldmVybW9yZTUxMg==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+
 接着看其他自变量与流失的关系：
 ```javascript
 fig,axes = plt.subplots(nrows = 2,ncols = 3, figsize = (12,8))
@@ -116,7 +113,7 @@ train_score = clf.score(x_train,y_train) # 训练集的评分
 test_score = clf.score(x_test,y_test)   # 测试集的评分
 'train_score:{0},test_score:{1}'.format(train_score,test_score)
 ```
-![在这里插入图片描述](https://img-blog.csdn.net/20181016003522650?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L05ldmVybW9yZTUxMg==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+
 
 可以看到针对训练集评分为0.867，针对测试集评分为0.880，两者近乎相等，说明模型较好的拟合训练集与测试集数据。
 

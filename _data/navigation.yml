@@ -6,7 +6,8 @@ main:
     url: /samples/
   - title: "dataset"
     url: /dataset/
-
+  - title: "关于我们"
+    url: /team/
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
