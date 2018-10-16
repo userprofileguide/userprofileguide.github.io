@@ -11,7 +11,7 @@ main:
 technical_resources:
   - title: Categories
   children:
-    - title: Python
+    - title: "Python"
     url: categories/#Python
-    - title: UserProfile
-    url: categories/UserProfile
+    - title: "UserProfile"
+    url: categories/#UserProfile
