@@ -7,20 +7,20 @@
 
 # Site Settings
 locale                   : "en"
-title                    : "Ken Benoit's website"
+title                    : "用户画像与机器学习实战研究"
 title_separator          : "-"
-name                     : "Ken Benoit"
-description              : "Ken Benoit's website"
-url                      : "https://kbenoit.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+name                     : "大创项目组"
+description              : ""
+url                      : #"https://kbenoit.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "kbenoit/kbenoit.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : #"kbenoit/kbenoit.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
   provider               : "disqus" # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
   disqus:
-    shortname            : "ken-benoit" # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+    shortname            : #"ken-benoit" # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -55,7 +55,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : "kenbenoit"
+  username               : #"kenbenoit"
 facebook:
   username               :
   app_id                 :
@@ -77,11 +77,11 @@ analytics:
 
 # Site Author
 author:
-  name             : "Ken Benoit"
-  avatar           : "/assets/images/Ken-B.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Professor of Quantitative Social Research Methods @ LSE"
-  location         : "London, UK"
-  email            : "k.r.benoit@lse.ac.uk"
+  name             : #"Ken Benoit"
+  avatar           : #"/assets/images/Ken-B.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : #"Professor of Quantitative Social Research Methods @ LSE"
+  location         : #"London, UK"
+  email            : #"k.r.benoit@lse.ac.uk"
   uri              :
   bitbucket        :
   codepen          :
@@ -89,7 +89,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "kbenoit"
+  github           : #"kbenoit"
   google_plus      :
   keybase          :
   instagram        :
@@ -100,7 +100,7 @@ author:
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. http://stackoverflow.com/users/123456/username)
   steam            :
   tumblr           :
-  twitter          : "kenbenoit"
+  twitter          : #"kenbenoit"
   vine             :
   weibo            :
   xing             :
