@@ -1,6 +1,6 @@
 ---
 id: 8
-title: "用户画像简介"
+title: 用户画像简介
 date: 2018-10-14T23:17:07+00:00
 author: Yuehao Yang
 layout: single
