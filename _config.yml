@@ -312,12 +312,6 @@ defaults:
 
 ## collections
 collections:
-  cv:
-    output: true
-    permalink: /:collection/:path/
-  pages:
-    output: true
-    permalink: /:path/
-  posts:
+  technical_resources:
     output: true
     permalink: /:collection/:path/
