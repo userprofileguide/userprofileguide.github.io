@@ -6,3 +6,10 @@ main:
     url: /samples/
   - title: "练习"
     url: /practice/
+
+
+posts:
+  - title: Categories
+  children:
+    -title: Python
+    url: categories/#Python
