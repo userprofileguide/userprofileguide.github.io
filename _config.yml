@@ -279,7 +279,7 @@ compress_html:
 defaults:
   # _posts
   - scope:
-      path: ""
+      path: "/technical_resources/"
       type: posts
     values:
       layout: single
@@ -306,18 +306,3 @@ defaults:
       author_profile: false
       comments: false
       post_pagination: false
-
-
-
-defaults:
-  # _posts
-  - scope:
-      path: "/technical_resources/"
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: true
-      share: true
-      related: true
