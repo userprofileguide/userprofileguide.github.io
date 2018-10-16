@@ -1,51 +1,39 @@
 ---
-title: "前言"
+title: "Current Research"
 path: ""
 ---
 
 
-### 用户画像从何而来
 
-在大数据，智能算法蓬勃发展的当今，传统业态正在面临新技术的冲击而重新洗牌，用户画像应运而生。人们开始关注如何从海量的数据中挖掘商业价值，切实的通过大数据的方法整合，优化用户体验，增加企业盈利能力，打造品牌价值。通过一个个数据完美的抽象出一个用户的信息全貌，这用户画像最原始的想法，也是企业应用大数据的根基。
+[Google Scholar Page](http://scholar.google.co.uk/citations?user=hp1p9TEAAAAJ "Kenneth Benoit's Google Scholar page")
 
+Patrick Perry and Kenneth Benoit.  October 26, 2017.  "[Scaling Text with the Class Affinity Model](http://arxiv.org/abs/1710.08963)."  London School of Economics and New York University manuscript.  
 
-### 什么是用户画像
+{: .notice}
+  Probabilistic methods for classifying text form a rich tradition in machine
+  learning and natural language processing.  For many important problems,
+  however, class prediction is uninteresting because the class is known, and
+  instead the focus shifts to estimating latent quantities related to the
+  text, such as affect or ideology.  We focus on one such problem of interest,
+  estimating the ideological positions of 55 Irish legislators in the 1991
+  Dail confidence vote. To solve the Dail scaling problem and others
+  like it, we develop a text modeling framework that allows actors to take
+  latent positions on a "gray" spectrum between "black" and "white" polar
+  opposites.  We are able to validate results from this model by measuring
+  the influences exhibited by individual words, and we are able to quantify
+  the uncertainty in the scaling estimates by using a sentence-level block
+  bootstrap. Applying our method to the Dail debate, we are able to
+  scale the legislators between extreme pro-government and pro-opposition in a
+  way that reveals nuances in their speeches not captured by their votes or
+  party affiliations.
+  
 
-用户画像是根据用户的属性，偏好，习惯，用户行为等信息抽象出的标签化用户模型，通俗地说就是给用户打标签，而标签是通过对用户信息分析而来的高度精炼的特征标识。
+Thomas Däubler and Kenneth Benoit. February 13, 2017\. “[Estimating Better Left-Right Positions Through Statistical Scaling of Manual Content Analysis]({{ site.baseurl}}pdfs/text_in_context_2017.pdf).”
 
-如今，用户画像被广泛的使用和研究。现在已经产生的较为成熟的方法包括：
+{: .notice}
+Borrowing from automated “text as data” approaches, we show how statistical scaling models can be applied to hand-coded content analysis to improve estimates of political parties’ left-right policy positions. We apply a Bayesian item-response theory (IRT) model to category counts from coded party manifestos, treating the categories as “items” and policy positions as a latent variable. This approach also produces direct estimates of how each policy category relates to left-right ideology, without having to decide these relationships in advance based on out of sample fitting, political theory, assertion, or guesswork. This approach not only prevents the misspecification endemic to a fixed-index approach, but also works well even with items that are not specifically designed to measure ideological positioning.
 
-- 精准营销
-
-- 用户统计
-
-- 数据挖掘
-
-- 服务产品
-
-- 行业报告&用户研究
-
-
-### 教程的目的
-
-- 让读者初步认识用户画像及其背后使用的方法。
-
-- 通过案例教学，阐释用户画像的简单使用场景。
-
-- 开放源代码等原始文件，便于读者上手用户画像相关项目。
-
-### 内容分类
-
-- 用户画像简介
-
-- 用户画像概念与应用现状
-
-- python在用户画像中的应用
-
-- 机器学习与用户画像
-
-- 用户画像中的其他技术
-
-- 用户画像实践案例-购物网站
-
-- 用户画像实践案例-社交网站
+{% comment %}
+this is a comment to make a blank commit and push for site regeneration
+{% endcomment %}
+<!-- CHECK WHICH VERSION OF REPO IS USED FOR SITE REGENERATION 12:10PM-->
