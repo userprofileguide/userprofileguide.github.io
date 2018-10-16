@@ -8,7 +8,7 @@ main:
     url: /practice/
 
 
-posts:
+technical_resources:
   - title: Categories
   children:
     - title: Python
