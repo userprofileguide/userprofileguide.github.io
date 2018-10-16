@@ -9,7 +9,7 @@ main:
 
 
 posts:
-  - title: Categories
+  title: Categories
   children:
     - title: "Python"
       url: categories/#Python
