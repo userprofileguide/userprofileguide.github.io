@@ -1,7 +1,7 @@
 # main links
 main:
   - title: "技术原理"
-    url: /technical_resources/
+    url: /posts/
   - title: "案例分析"
     url: /samples/
   - title: "练习"
