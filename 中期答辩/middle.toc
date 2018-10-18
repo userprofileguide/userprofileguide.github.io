@@ -1,4 +1,4 @@
 \beamer@sectionintoc {1}{卷皮网研究情况}{4}{0}{1}
-\beamer@sectionintoc {2}{教程开发与编程社区建立}{10}{0}{2}
-\beamer@sectionintoc {3}{财务情况}{17}{0}{3}
-\beamer@sectionintoc {4}{后续工作安排}{18}{0}{4}
+\beamer@sectionintoc {2}{工作范围扩大与教程开发}{10}{0}{2}
+\beamer@sectionintoc {3}{财务情况}{19}{0}{3}
+\beamer@sectionintoc {4}{后续工作安排}{20}{0}{4}

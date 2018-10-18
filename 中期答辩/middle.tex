@@ -1,4 +1,6 @@
-\documentclass[10pt]{beamer}
+\documentclass[10pt, aspectratio=32,handout]{beamer}
+%\usepackage{pgfpages}
+%\pgfpagesuselayout{4 on 1}[a4paper,border shrink=5mm]
 \usepackage[UTF8,noindent]{ctex}
 \usepackage{times}
 \usepackage{fontenc}
@@ -39,12 +41,12 @@ stored, what models are constructed, and what questions\newline\newline are aske
 
 \begin{frame}{商品营销分析}
 \begin{itemize}
-\item 数据来源：卷皮网数据分析员工提供。所有数据经过脱敏处理。\newline
+\item 数据来源：卷皮网数据分析工程师提供。所有数据经过脱敏处理。\newline
 \item 数据量：8种品类商品价格数据共2570组。\newline
 \item 分析方法：统计、逻辑回归。\newline
 \item 分析结论：\newline
   \begin{itemize}
-    \item 各品类商品平均价格偏低，离散程度较小，商品质量与价格分布集中。\newline
+    \item 各品类商品平均价格偏低，同品类商品价格离散程度较小。\newline
     \item \textbf{99.8\%}的商品以打折价出售，降价幅度较大，说明卷皮网消费者对商品打折信息较为敏感。\newline
     \item 不同时期商品浮动价格较大，一般以上商品不定期会有大幅度价格变动。
   \end{itemize}
@@ -55,7 +57,12 @@ stored, what models are constructed, and what questions\newline\newline are aske
   \begin{itemize}
     \item 数据来源：手机端APP评论数据+Python爬虫程序\newline
     \item 数据量：8种品类商品，每种选取10个商品，爬取评论。平均每个商品约500条评论。\newline
-    \item 分析方法：文本分词，建立数据字典，分析情绪倾向性\newline
+    \item 分析方法：\newline
+    \begin{itemize}
+    \item 文本分词，建立数据字典，高频词分析。\newline
+    \item 特征提取，用户情绪分析。\newline
+    \item 评论关联度分析。\newline
+    \end{itemize}
   \end{itemize}
 \end{frame}
 
@@ -68,7 +75,7 @@ stored, what models are constructed, and what questions\newline\newline are aske
     \item 用户评论字数偏少，差异性低。\newline
     \item 商品评论数量与评论倾向并不会显著影响商品销量。\newline
   \end{itemize}
-\item 结论：
+\item 结论：\newline
   \begin{itemize}
     \item 卷皮网面向的消费者对评论关注程度低，且不会显著影响其购买决策。\newline
     \item 用户评论用词高度重复，差异性不够显著。\newline
@@ -83,7 +90,7 @@ stored, what models are constructed, and what questions\newline\newline are aske
     \item 流量时效性强，其借助互联网渠道的转发难以维持固定客户。\newline
     \item 商品质量参差不齐，山寨产品影响购物体验。\newline
     \item 卷皮网消费者在网上发表评论意愿不强，重复度高。参考意义低。\newline
-    \item 营销模式偏低端，商品心里价格较低。
+    \item 营销模式偏低端，消费者价格感知程度低。
   \end{itemize}
 
 
@@ -93,12 +100,12 @@ stored, what models are constructed, and what questions\newline\newline are aske
   \begin{itemize}
     \item 研究目标用户群体的用户画像可以切实分析企业经营中的优势与问题。\newline
     \item 机器学习的研究方法可以从另一个维度解读数据。\newline
-    \item 卷皮网的项目实践得出了对卷皮网目标用户群的画像，并得到了一定的结论。\newline
-    \item 卷皮网用户群像单一，数据质量不高，不具有很强的研究价值。\newline
+    \item 卷皮网的项目实践得出了对卷皮网目标用户群的画像，并进行了系统性的描述。\newline
+    \item 卷皮网用户群像单一，数据量较小，特征偏好明显。\newline
   \end{itemize}
 \end{frame}
 
-\section{教程开发与编程社区建立}
+\section{工作范围扩大与教程开发}
 
 \begin{frame}{工作范围扩大}
 \includegraphics[height=0.7\paperheight]{amplify}
@@ -113,19 +120,47 @@ stored, what models are constructed, and what questions\newline\newline are aske
    \end{itemize}
 \end{frame}
 
+\begin{frame}{例子：中国电信用户流失画像}
+\begin{itemize}
+\item 研究路径：
+  \begin{enumerate}
+    \item 数据导入及预处理\newline
+    \item 数据建模（采用决策树模型）\newline
+    \item 总结和思考\newline
+  \end{enumerate}
+\item 数据类型：
+  \begin{itemize}
+    \item 用户月套餐余额\newline
+    \item 每月套餐外通话时长\newline
+    \item 每月套餐外流量\newline
+    \item 办理的是否是集团业务\newline
+    \item ......
+  \end{itemize}
+\end{itemize}
+\end{frame}
+
+\begin{frame}{例子：中国电信用户流失画像}
+\textbf{研究结论：}\newline
+\begin{itemize}
+\item 高价值用户的重点关注更有利于企业的发展。\newline
+\item 维护老用户比获取新用户效用更高。\newline
+\item 优惠福利和竞争对手的销售策略都会对业绩产生显著的影响。\newline
+\end{itemize}
+\end{frame}
+
 \begin{frame}{为什么要做教程？}
   \begin{itemize}
-    \item 在卷皮网项目开发过程中发现，相关技术资料不够系统，教程较少，推荐困难。\newline
+    \item 在卷皮网项目开发过程中发现，相关技术资料不够系统，教程较少，项目推进困难。\newline
     \item 身边许多老师同学对此领域有很浓厚的兴趣。
   \end{itemize}
 \end{frame}
 
 \begin{frame}{网页}
 \begin{columns}
-  \begin{column}{0.4\textwidth}
+  \begin{column}{0.4\paperheight}
     \textbf{userprofileguide.github.io}
   \end{column}
-  \begin{column}{0.6\textwidth}
+  \begin{column}{0.6\paperheight}
     \includegraphics[height=0.4\paperheight]{website1}
     \includegraphics[height=0.4\paperheight]{website2}
   \end{column}
@@ -184,6 +219,11 @@ stored, what models are constructed, and what questions\newline\newline are aske
 
 
 %%%%%%
+\begin{frame}
+感谢聆听！\newline\newline
+\textbf{Q\&A}
+\end{frame}
+
 
 
 \end{document}
