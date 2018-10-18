@@ -9,8 +9,6 @@ author_profile: false
 
 - [电信客户流失用户画像](dxkh)
 
-- [银行征信系统](bank)
+- [社交网络](social_media)_(即将上线)_
 
-- [社交网络](social_media)
-
-- [购物网站](shopping)
+- [购物网站](shopping)_(即将上线）_
