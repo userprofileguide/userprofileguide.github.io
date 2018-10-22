@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.10.12)  18 OCT 2018 11:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.10.12)  18 OCT 2018 15:43
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1743,8 +1743,8 @@ Package rerunfilecheck Info: File `middle.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  34290 strings out of 493905
- 629097 string characters out of 6158409
- 659445 words of memory out of 5000000
+ 629096 string characters out of 6158409
+ 659467 words of memory out of 5000000
  37068 multiletter control sequences out of 15000+600000
  604237 words of font info for 262 fonts, out of 8000000 for 9000
  372 hyphenation exceptions out of 8191
@@ -1780,7 +1780,7 @@ s/simhei.ttf><c:/Windows/Fonts/simhei.ttf><d:/texlive/2018/texmf-dist/fonts/typ
 e1/public/amsfonts/cm/cmsy10.pfb><d:/texlive/2018/texmf-dist/fonts/type1/public
 /amsfonts/cm/cmsy9.pfb><d:/texlive/2018/texmf-dist/fonts/type1/urw/helvetic/uhv
 b8a.pfb><d:/texlive/2018/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on middle.pdf (21 pages, 969671 bytes).
+Output written on middle.pdf (21 pages, 969754 bytes).
 PDF statistics:
  1045 PDF objects out of 1200 (max. 8388607)
  824 compressed objects within 9 object streams
